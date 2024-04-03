@@ -10,4 +10,5 @@
     <string name="button3">Clear</string>
     <string name="PlainText">Age</string>
     <string name="sorry_we_couldn_t_find_a_historical_figure_who_passed_away_at_the_age_of">Sorry, we couldn\'t find a historical figure who passed away at the age of %1$s.</string>
+    <string name="message">\"\"</string>
 </resources>
