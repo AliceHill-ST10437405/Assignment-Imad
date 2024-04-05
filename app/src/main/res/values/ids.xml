@@ -1,3 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+</textxmlns ="http://www.w3.org/1999/XSL/Transform">
+    <item name="resultTextView" type="id">textview</item>
+    <item name="headingTextView" type="id">TextView</item>
+    <item name="mapOf" type="id">infoMap</item>
+    <item name="TextView" type="id">textView</item>
+    <item name="idEditText" type="id">EditText</item>
+    <item name="infoTextView" type="id">TextView</item>
+    <item name="searchButton" type="id">Button</item>
 </resources>

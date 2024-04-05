@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/clickMeButton"
+    android:id="@+id/searchButton"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -17,9 +17,10 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="1456dp"
-        android:layout_height="742dp"
+        android:id="@+id/background"
+        android:layout_width="1468dp"
+        android:layout_height="1084dp"
+        android:contentDescription="History App"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,7 +34,6 @@
         android:layout_width="352dp"
         android:layout_height="104dp"
         android:text="@string/Textview"
-        android:textColor="@color/design_default_color_error"
         android:textSize="60sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -70,11 +70,13 @@
         app:layout_constraintVertical_bias="0.709" />
 
     <EditText
-        android:id="@+id/Age"
+        android:id="@+id/idEditText"
         android:layout_width="194dp"
         android:layout_height="90dp"
+        android:autofillHints="@string/Age"
         android:ems="10"
         android:inputType="text"
+        android:singleLine="false"
         android:text="@string/PlainText"
         android:textSize="50sp"
         android:textStyle="bold"
@@ -84,7 +86,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.381"
-        tools:text="Age" />
+        tools:text="@string/editText" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="1230dp"
@@ -94,18 +96,9 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="1466dp"
-        tools:layout_editor_absoluteY="1630dp"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="397dp"
-        android:layout_height="162dp"
+        android:id="@+id/infoTextView"
+        android:layout_width="390dp"
+        android:layout_height="190dp"
         android:text="resultTextView"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
