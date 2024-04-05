@@ -2,15 +2,11 @@
     <string name="app_name">Assignment IMAD</string>
     <string name="Textview">History App</string>
     <string name="Age">Plain Text</string>
-    <string name="plaintext">age</string>
-    <string name="edittexttext3">Age</string>
     <string name="TextView">History App</string>
-    <string name="Enter">Button</string>
     <string name="Button">Enter</string>
     <string name="button3">Clear</string>
     <string name="PlainText">Age</string>
     <string name="Background">History App</string>
-    <string name="sorry_we_couldn_t_find_a_historical_figure_who_passed_away_at_the_age_of">Sorry, we couldn\'t find a historical figure who passed away at the age of %1$s.</string>
-    <string name="message">\"\"</string>
     <string name="editText">etA</string>
+    <string name="infoTextView">resultTextView</string>
 </resources>
